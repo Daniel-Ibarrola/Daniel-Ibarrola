@@ -1,36 +1,40 @@
 #  👋 Hi, I’m Daniel
-
 [![Linkedin: Daniel-Ibarrola](https://img.shields.io/badge/-DanielIbarrola-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/d-ibarrola/)](https://www.linkedin.com/in/d-ibarrola/)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-
 ```Python
-
 class Daniel(SoftwareDeveloper):
 
     def __init__(self):
-        self.name = "Daniel Ibarrola"
+        self.name = "Daniel"
 
-    def about(self):
-        return "I'm a graduate student in Chemistry. " \
-                "My main focus is cheminformatics and drug design."
+    def describe(self):
+        return f"Hi! I'm {self.name}, a software engineer whose speciality is python " \
+               "programming. I have worked in different areas such as " \
+               "scientific computing, web development and data science."
 
     @property
     def knowledge(self):
-        return [
+        return {
             "Python",
             "C++",
             "SQL",
             "HTML",
+            "Git",
+            "Docker",
+            "Linux",
+        }
+
+    def list_interests(self):
+        return [
+            "Algorithms",
+            "Data Science",
+            "Machine Learning",
+            "Drug Design",
         ]
 
     def currently_working_on(self):
-        return "Open Pharmacophore: a tool for finding drug-like molecules: " \
+        return "Open Pharmacophore: a tool for finding molecules with drug-like properties " \
                "https://github.com/uibcdf/OpenPharmacophore"
 
-    def currently_learning(self):
-        return {
-            "Algorithms": "https://github.com/Daniel-Ibarrola/Algorithms-Cpp",
-            "Test-Driven Development": "https://github.com/Daniel-Ibarrola/ToDoList",
-        }
 
 ```

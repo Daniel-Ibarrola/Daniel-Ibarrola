@@ -7,34 +7,40 @@ class SoftwareDeveloper:
 class Daniel(SoftwareDeveloper):
 
     def __init__(self):
-        self.name = "Daniel Ibarrola"
+        self.name = "Daniel"
 
-    def about(self):
-        return "I'm a graduate student in Chemistry. " \
-                "My main focus is cheminformatics and drug design."
+    def describe(self):
+        return f"Hi! I'm {self.name}, a software engineer whose speciality is python " \
+               "programming. I have worked in different areas such as " \
+               "scientific computing, web development and data science."
 
     @property
     def knowledge(self):
-        return [
+        return {
             "Python",
             "C++",
             "SQL",
             "HTML",
+            "Git",
+            "Docker",
+            "Linux",
+        }
+
+    def list_interests(self):
+        return [
+            "Algorithms",
+            "Data Science",
+            "Machine Learning",
+            "Drug Design",
         ]
 
     def currently_working_on(self):
-        return "Open Pharmacophore: a tool for finding drug-like molecules: " \
+        return "Open Pharmacophore: a tool for finding molecules with drug-like properties " \
                "https://github.com/uibcdf/OpenPharmacophore"
-
-    def currently_learning(self):
-        return {
-            "Algorithms": "https://github.com/Daniel-Ibarrola/Algorithms-Cpp",
-            "Test-Driven Development": "https://github.com/Daniel-Ibarrola/ToDoList",
-        }
 
 
 me = Daniel()
-print(me.about())
+print(me.describe())
 print(me.knowledge)
+print(me.list_interests())
 print(me.currently_working_on())
-print(me.currently_learning())
