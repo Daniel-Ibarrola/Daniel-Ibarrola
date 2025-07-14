@@ -1,34 +1,39 @@
 # Daniel Ibarrola Sánchez
 
+**Email:** daniel.ibarrola.sanchez@gmail.com  
+**Phone:** +52 55 2116 5635  
+**GitHub:** https://github.com/Daniel-Ibarrola
+**LinkedIn:** https://linkedin.com/in/d-ibarrola 
+
 ## Work Experience
 
-### Inter-Con Security Systems, Inc., CDMX
+
+### Inter-Con Security Systems, Inc. – Mexico City, Mexico  
 **Senior Software Engineer**  
-*Nov 2023 – Present*
-- Designed cloud-native system architectures using AWS services and Terraform, ensuring infrastructure as code, scalability, and repeatability.
-- Contributed to full-stack development using Python for backend and TypeScript/React for frontend, with a focus on optimizing frontend performance to improve user experience.
-- Mentored junior developers, providing guidance on best practices, code quality, and performance optimization.
-- Conducted code reviews, ensuring adherence to clean coding principles, maintainability, and system performance.
+*Nov 2023 – Present*  
+- Designed cloud-native system architectures using AWS services and Terraform, ensuring scalable and repeatable infrastructure as code.  
+- Developed full-stack applications using Python for backend and React/TypeScript for frontend.  
+- Mentored junior developers and conducted code reviews to maintain performance and quality standards.  
+- Led frontend performance optimizations to improve user experience and responsiveness.
 
-### Centro de Instrumentación y Registro Sísmico, AC, CDMX
+### Centro de Instrumentación y Registro Sísmico, A.C. – Mexico City, Mexico  
 **Software Engineer**  
-*Aug 2019 – Nov 2023*
-- Developed real-time seismic data acquisition, processing, and transmission applications, ensuring efficient data handling.
-- Developed cloud-based applications on AWS, utilizing EC2, RDS, and other services to enhance scalability and resilience.
-- Implemented Terraform to provision and manage cloud infrastructure, improving deployment consistency and infrastructure reliability.
-- Designed and constructed interactive websites for seismic data visualization and monitoring, improving data accessibility.
-- Successfully implemented Continuous Delivery and Integration practices to ensure project efficiency and reliability.
+*Aug 2019 – Nov 2023*  
+- Built and maintained real-time seismic data acquisition and alerting systems.  
+- Developed cloud-based applications using AWS EC2, RDS, and other services for improved resilience.  
+- Automated infrastructure provisioning using Terraform, enhancing deployment consistency.  
+- Implemented Continuous Integration and Delivery pipelines to improve development workflow.  
+- Developed interactive web interfaces for seismic data visualization.
 
-### Hospital Infantil de México Federico Gómez, CDMX
+### Hospital Infantil de México Federico Gómez – Mexico City, Mexico  
 **Software Engineer**  
-*Apr 2021 – Apr 2023*
-- Led the development of an open-source Python library for pharmacophore modeling, translating complex scientific concepts into a practical tool for the research community.
-- Collaborated on the design, development, and deployment of multiple scientific libraries in Python, enhancing the capabilities of research software.
-- Enhanced codebase quality by eliminating redundancies, increasing test coverage, and following PEP standards for cleaner, maintainable code.
-- Pioneered test-driven development practices, boosting reliability and ensuring consistent functionality across the codebase.
+*Apr 2021 – Apr 2023 (concurrent role)*  
+- Led the development of an open-source Python library for pharmacophore modeling used in drug discovery research.  
+- Collaborated on scientific libraries for molecular design and cheminformatics.  
+- Increased test coverage by 30% and improved maintainability using type hints and PEP standards.  
+- Applied TDD to ensure software reliability in a scientific computing context.
 
 ---
-
 ## Education
 
 **Universidad Autónoma Metropolitana**  
@@ -49,4 +54,4 @@
 - **DevOps & Cloud**: Terraform, Docker, GitHub Actions, Bitbucket Pipelines, AWS
 - **Version Control**: Git, GitHub, Bitbucket  
 - **Operating Systems**: Linux, Windows  
-- **Languages**: English, French, Spanish  
+- **Languages**: English, Spanish  
