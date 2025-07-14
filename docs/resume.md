@@ -1,8 +1,9 @@
 # Daniel Ibarrola Sánchez
 
-**Senior Software Engineer**
-
 +52 55 2116 5635 | daniel.ibarrola.sanchez@gmail.com |  https://github.com/Daniel-Ibarrola | https://linkedin.com/in/d-ibarrola
+
+## Professional Summary
+Senior Software Engineer with 6+ years of experience designing and developing scalable, cloud-native applications. Proven expertise in full-stack development using Python and React, and in building resilient infrastructure with AWS and Terraform. Passionate about mentoring developers, optimizing performance, and applying software engineering best practices to solve complex problems in both commercial and scientific domains
 
 ## Work Experience
 
@@ -32,7 +33,7 @@
 ## Education & Certifications
 
 * B.Sc. in Biochemical Engineering – Universidad Autónoma Metropolitana, 2017–2021, First Class Honors  
-* AWS Certified Solutions Architect – Associate, Amazon Web Services, April 2025
+* AWS Certified Solutions Architect – Associate, Amazon Web Services, Issued April 2025
 
 ***
 ## Skills
