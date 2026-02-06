@@ -1,13 +1,12 @@
 #  👋 Hi, I’m Daniel
 [![Linkedin: Daniel-Ibarrola](https://img.shields.io/badge/-DanielIbarrola-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/d-ibarrola/)](https://www.linkedin.com/in/d-ibarrola/)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-
 ```Python
 class Daniel(SoftwareEngineer):
 
     def __init__(self):
         super().__init__(
-            seniority="Senior", name="Daniel Ibarrola", location="CDMX, Mexico"
+            name="Daniel Ibarrola", location="CDMX, Mexico"
         )
 
     def describe(self) -> str:
@@ -31,11 +30,20 @@ class Daniel(SoftwareEngineer):
             "AWS",
             "PostgreSQL",
             "DynamoDB",
+            "Bazel",
         }
 
     @staticmethod
     def experience() -> list[Experience]:
         return [
+            Experience(
+                company="Grid Dynamics",
+                position="Senior Software Engineer",
+                responsibilities=(
+                    "Developed ML infrastructure for Google’s JAX library, optimized build systems using Bazel, "
+                    "and created tools in Python. Worked on CI/CD pipelines with GitHub Actions."
+                ),
+            ),
             Experience(
                 company="Inter-Con Security Systems",
                 position="Senior Software Engineer",
