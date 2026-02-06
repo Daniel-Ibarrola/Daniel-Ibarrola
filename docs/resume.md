@@ -3,12 +3,25 @@
 +52 55 2116 5635 | daniel.ibarrola.sanchez@gmail.com |  https://github.com/Daniel-Ibarrola | https://linkedin.com/in/d-ibarrola
 
 ## Professional Summary
-Senior Software Engineer with 6+ years of experience designing and developing scalable, cloud-native applications. Proven expertise in full-stack development using Python and React, and in building resilient infrastructure with AWS and Terraform. Passionate about mentoring developers, optimizing performance, and applying software engineering best practices to solve complex problems in both commercial and scientific domains
+Senior Software Engineer with 6+ years of experience developing scalable, cloud-native applications and cutting-edge
+infrastructure for machine learning projects. Adept at designing tools, optimizing build systems, 
+and leveraging industry best practices to solve complex technical problems.
+Passionate about innovation in ML infrastructure, performance optimization, 
+and fostering teamwork through mentorship and thorough code reviews.
 
 ## Work Experience
 
-**Senior Software Engineer** - Inter-Con Security Systems  
-*Nov 2023 – Present*  
+**Senior Software Engineer** – Grid Dynamics
+Sep 2025 - Present
+- Contributed to the development of ML infrastructure for Google’s JAX library.  
+- Built and extended tools in Python to maintain, debug, and optimize Python libraries using the Bazel/Blaze build system.  
+- Collaborated with cross-functional teams to enhance the reliability and scalability of ML infrastructure.  
+- Created a "culprit finder" tool for GitHub Actions, enabling faster issue detection and resolution in CI/CD pipelines.  
+- Improved the build and testing process by extending Bazel rules and debugging build issues.  
+- Participated in regular code reviews to ensure quality, consistency, and maintainability of the codebase.
+
+**Backend Developer** - Inter-Con Security Systems  
+*Nov 2023 – Aug 2025*  
 - Designed cloud-native system architectures using AWS services and Terraform, ensuring scalable and repeatable infrastructure as code.  
 - Developed full-stack applications using Python for backend and React/TypeScript for frontend.  
 - Mentored junior developers and conducted code reviews to maintain performance and quality standards.  
@@ -38,4 +51,5 @@ Senior Software Engineer with 6+ years of experience designing and developing sc
 ***
 ## Skills
 
-Python | TypeScript | JavaScript | C++ | React | FastAPI | Flask | PostgreSQL | DynamoDB | AWS | Terraform | Docker | GitHub Actions | Bitbucket Pipelines | Git | Linux | Windows |
+Python | TypeScript | JavaScript | C++ | Bazel | React | FastAPI | Flask | PostgreSQL | DynamoDB |
+AWS | Terraform | Docker | GitHub Actions | Bitbucket Pipelines | Git | Linux | Windows |
