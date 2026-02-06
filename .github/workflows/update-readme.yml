@@ -5,7 +5,10 @@ on:
     branches:
       - main
     paths:
-      - 'src/me.py'
+      - 'src/'
+  schedule:
+    - cron: '0 */12 * * *'  # Run every 12 hours
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-readme:
@@ -20,17 +23,21 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Run update script
+      - name: Select random file and run update script
         run: |
           cd src
-          python update_readme.py
+          FILES=("me.py" "me.ts" "me.cpp")
+          RANDOM_FILE=${FILES[$RANDOM % ${#FILES[@]}]}
+          echo "Selected file: $RANDOM_FILE"
+          python update_readme.py "$RANDOM_FILE"
+          echo "SELECTED_FILE=$RANDOM_FILE" >> $GITHUB_ENV
 
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update README.md from me.py"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update README.md from ${{ env.SELECTED_FILE }}"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
