@@ -46,7 +46,7 @@ class Daniel(SoftwareEngineer):
             ),
             Experience(
                 company="Inter-Con Security Systems",
-                position="Backed Developer",
+                position="Backend Developer",
                 responsibilities=(
                     "Designing cloud-native architectures with AWS and Terraform, "
                     "developing full-stack applications in Python and React, and mentoring junior developers."
