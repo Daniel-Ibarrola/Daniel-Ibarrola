@@ -13,10 +13,9 @@ and fostering teamwork through mentorship and thorough code reviews.
 
 **Senior Software Engineer** – Grid Dynamics
 Sep 2025 - Present
-- Contributed to the development of ML infrastructure for Google’s JAX library.  
-- Built and extended tools in Python to maintain, debug, and optimize Python libraries using the Bazel/Blaze build system.  
+- Contributed to the development of ML infrastructure for Google’s JAX library.   
 - Collaborated with cross-functional teams to enhance the reliability and scalability of ML infrastructure.  
-- Created a "culprit finder" tool for GitHub Actions, enabling faster issue detection and resolution in CI/CD pipelines.  
+- Developed custom Python tooling for GitHub Actions, enabling faster issue detection and resolution in CI/CD pipelines.
 - Improved the build and testing process by extending Bazel rules and debugging build issues.  
 - Participated in regular code reviews to ensure quality, consistency, and maintainability of the codebase.
 
@@ -35,12 +34,10 @@ Sep 2025 - Present
 - Implemented Continuous Integration and Delivery pipelines to improve development workflow.  
 - Developed interactive web interfaces for seismic data visualization.
 
-**Software Engineer** - Hospital Infantil de México Federico Gómez
+**Research Assistant (Software Development)** - Hospital Infantil de México Federico Gómez
 *Apr 2021 – Apr 2023*  
 - Led the development of an open-source Python library for pharmacophore modeling used in drug discovery research.  
 - Collaborated on scientific libraries for molecular design and cheminformatics.  
-- Increased test coverage by 30% and improved maintainability using type hints and PEP standards.  
-- Applied TDD to ensure software reliability in a scientific computing context.
 
 ***
 ## Education & Certifications
