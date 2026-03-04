@@ -48,5 +48,8 @@ Sep 2025 - Present
 ***
 ## Skills
 
-Python | TypeScript | JavaScript | C++ | Bazel | React | FastAPI | Flask | PostgreSQL | DynamoDB |
-AWS | Terraform | Docker | GitHub Actions | Bitbucket Pipelines | Git | Linux | Windows |
+- Languages: Python, JavaScript/TypeScript, C++, Bash, SQL  
+- Cloud & Infrastructure: AWS, Terraform, Docker, Bazel, GitHub Actions, Bitbucket Pipelines  
+- Backend & Databases: Django, FastAPI, Flask, Express.js, PostgreSQL, DynamoDB
+- Frontend: React, Tailwind, React Query, Zustand
+- Spoken Languages: English (Professional), Spanish (Native)
