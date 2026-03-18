@@ -11,33 +11,40 @@ and fostering teamwork through mentorship and thorough code reviews.
 
 ## Work Experience
 
-**Senior Software Engineer** – Grid Dynamics
+**Senior Software Engineer** – Grid Dynamics (client: Google)
 Sep 2025 - Present
-- Contributed to the development of ML infrastructure for Google’s JAX library.   
-- Collaborated with cross-functional teams to enhance the reliability and scalability of ML infrastructure.  
-- Developed custom Python tooling for GitHub Actions, enabling faster issue detection and resolution in CI/CD pipelines.
-- Improved the build and testing process by extending Bazel rules and debugging build issues.  
-- Participated in regular code reviews to ensure quality, consistency, and maintainability of the codebase.
+- Worked on CI and build infrastructure for Google’s JAX library using Bazel, GitHub Actions, and Python.
+- Added testing and build-system changes in Bazel to improve build stability and feedback time.
+- Built Python CLI tools that made GitHub CI failures faster to diagnose.
+- Created reusable GitHub Actions shared across multiple projects.
+- Fixed security issues in CI pipelines and improved reliability at scale.
+- Helped build a platform in GCP for GPU and TPU CI runners handling thousands of jobs per day.
 
-**Backend Developer** - Inter-Con Security Systems  
+**Full Stack Developer** - Inter-Con Security Systems  
 *Nov 2023 – Aug 2025*  
-- Designed cloud-native system architectures using AWS services and Terraform, ensuring scalable and repeatable infrastructure as code.  
-- Developed full-stack applications using Python for backend and React/TypeScript for frontend.  
-- Mentored junior developers and conducted code reviews to maintain performance and quality standards.  
-- Led frontend performance optimizations to improve user experience and responsiveness.
+- Improved a key React workflow from roughly 30s to about 5s by redesigning state management and adding virtualization.
+- Improved backend responsiveness by reworking DynamoDB pagination and concurrent processing.
+- Refactored core parts of the scheduling platform to improve maintainability and reduce regressions.
+- Fixed AWS security issues and improved cloud infrastructure across the system.
+- Reworked Terraform into reusable modules, reducing repeated setup work across environments.
+- Lowered AWS costs through infrastructure cleanup and better resource allocation.
+- Mentored developers and helped raise testing and code review standards.
 
 **Software Engineer** - Centro de Instrumentación y Registro Sísmico, A.C.  
 *Aug 2019 – Nov 2023*  
-- Built and maintained real-time seismic data acquisition and alerting systems.  
-- Developed cloud-based applications using AWS EC2, RDS, and other services for improved resilience.  
-- Automated infrastructure provisioning using Terraform, enhancing deployment consistency.  
-- Implemented Continuous Integration and Delivery pipelines to improve development workflow.  
-- Developed interactive web interfaces for seismic data visualization.
+- Built web applications for seismic data processing and visualization.
+- Worked on data acquisition systems handling input from thousands of seismic stations.
+- Developed real-time systems using TCP-based communication.
+- Helped move services to AWS to improve scalability and deployment flexibility.
+- Added automated notifications through email, WhatsApp, and Telegram.
+- Built CI workflows and infrastructure automation to reduce manual work.
 
 **Research Assistant (Software Development)** - Hospital Infantil de México Federico Gómez
 *Apr 2021 – Apr 2023*  
-- Led the development of an open-source Python library for pharmacophore modeling used in drug discovery research.  
-- Collaborated on scientific libraries for molecular design and cheminformatics.  
+- Built an open-source Python library for drug discovery research.
+- Developed algorithms that screened thousands of molecules in seconds.
+- Added tests and refactored core parts of the library to improve reliability and maintainability.
+- Supported research workflows with faster and more robust software
 
 ***
 ## Education & Certifications
@@ -48,8 +55,8 @@ Sep 2025 - Present
 ***
 ## Skills
 
-- Languages: Python, JavaScript/TypeScript, C++, Bash, SQL  
+- Languages: Python, JavaScript/TypeScript, C++, Bash, SQL
+- Frontend: React, Tailwind, React Query, Zustand, Jest
 - Cloud & Infrastructure: AWS, Terraform, Docker, Bazel, GitHub Actions, Bitbucket Pipelines  
 - Backend & Databases: Django, FastAPI, Flask, Express.js, PostgreSQL, DynamoDB
-- Frontend: React, Tailwind, React Query, Zustand
 - Spoken Languages: English (Professional), Spanish (Native)
