@@ -3,11 +3,13 @@
 +52 55 2116 5635 | daniel.ibarrola.sanchez@gmail.com |  https://github.com/Daniel-Ibarrola | https://linkedin.com/in/d-ibarrola
 
 ## Professional Summary
-Senior Software Engineer with 6+ years of experience developing scalable, cloud-native applications and cutting-edge
-infrastructure for machine learning projects. Adept at designing tools, optimizing build systems, 
-and leveraging industry best practices to solve complex technical problems.
-Passionate about innovation in ML infrastructure, performance optimization, 
-and fostering teamwork through mentorship and thorough code reviews.
+Software Engineer with 6+ years of experience building and improving systems across Python, TypeScript, React,
+FastAPI, AWS, PostgreSQL, Terraform, and CI/CD tools. Background includes improving JAX’s 
+build and test infrastructure at Google, strengthening security and reliability in a
+workforce scheduling platform at Inter-Con Security Systems, and building seismic data, cloud migration, alerting, 
+and drug discovery software.
+
+Known for making complex systems faster, safer, and easier to maintain.
 
 ## Work Experience
 
@@ -55,8 +57,8 @@ Sep 2025 - Present
 ***
 ## Skills
 
-- Languages: Python, JavaScript/TypeScript, C++, Bash, SQL
+- Languages: Python, JavaScript/TypeScript, Rust, Go, Bash, SQL
 - Frontend: React, Tailwind, React Query, Zustand, Jest
 - Cloud & Infrastructure: AWS, Terraform, Docker, Bazel, GitHub Actions, Bitbucket Pipelines  
 - Backend & Databases: Django, FastAPI, Flask, Express.js, PostgreSQL, DynamoDB
-- Spoken Languages: English (Professional), Spanish (Native)
+- Spoken Languages: English (Professional), Spanish (Native)'
