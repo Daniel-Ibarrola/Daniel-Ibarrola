@@ -30,9 +30,9 @@ Senior software engineer with a track record of inheriting slow or fragile syste
 **Software Engineer** – Centro de Instrumentación y Registro Sísmico, A.C.  
 *Aug 2019 – Nov 2023*
 
-- Built a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
+- Wrote a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
 - Built a real-time React/TypeScript seismic data dashboard; fixed rendering performance using refs and a rolling data window, cutting render time by ~70%.
-- Built an integration module for Earthworm, a legacy C application with minimal documentation; handled the full production data volume reliably.
+- Implemented an integration module for Earthworm, a legacy C application with minimal documentation; handled the full production data volume reliably.
 - Replaced a manual notification process with an automated AWS pipeline (Lambda, SES, SNS, S3), sending earthquake alerts via WhatsApp, Telegram, and email.
 
 ***

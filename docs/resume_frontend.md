@@ -29,8 +29,8 @@ Senior frontend engineer with a track record of inheriting slow or buggy React a
 **Software Engineer** – Centro de Instrumentación y Registro Sísmico, A.C.  
 *Aug 2019 – Nov 2023*
 
-- Built a real-time React/TypeScript seismic data dashboard; fixed rendering performance using refs and a rolling data window, cutting render time by ~70%.
-- Built a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
+- Wrote a real-time React/TypeScript seismic data dashboard; fixed rendering performance using refs and a rolling data window, cutting render time by ~70%.
+- Implemented a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
 - Built an automated alerting system on AWS (Lambda, SES, SNS, S3) that notified authorities when an earthquake was detected, via WhatsApp, Telegram, and email.
 
 ***

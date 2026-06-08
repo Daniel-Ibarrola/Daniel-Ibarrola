@@ -14,7 +14,7 @@ Senior backend engineer with a track record of inheriting slow or unreliable sys
 *Sep 2025 – Present*
 
 - Built and maintained CI infrastructure for Google's JAX and XLA libraries across CPU, GPU, and TPU hardware.
-- Built GitHub Actions workflows that caught Bazel build graph breakages in seconds instead of waiting hours for a full build.
+- Wrote GitHub Actions workflows that caught Bazel build graph breakages in seconds instead of waiting hours for a full build.
 - Fixed security vulnerabilities in CI pipelines and added static analysis to prevent new ones.
 - Built a Python CLI tool (Culprit Finder) that automated regression bisection for JAX, XLA, and TensorFlow CI, eliminating hours of manual workflow monitoring.
 
@@ -30,8 +30,8 @@ Senior backend engineer with a track record of inheriting slow or unreliable sys
 **Software Engineer** – Centro de Instrumentación y Registro Sísmico, A.C.  
 *Aug 2019 – Nov 2023*
 
-- Built a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
-- Built an integration module for Earthworm, a legacy C application with minimal documentation; handled the full production data volume reliably.
+- Wrote a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
+- Implemented an integration module for Earthworm, a legacy C application with minimal documentation; handled the full production data volume reliably.
 - Built an automated earthquake alerting system on AWS (Lambda, SES, SNS, S3) that replaced a manual process, notifying authorities via WhatsApp, Telegram, and email.
 
 ***
