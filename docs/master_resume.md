@@ -24,7 +24,7 @@ Senior software engineer with a track record of inheriting slow or fragile syste
 - Refactored a legacy TypeScript/React and Node.js codebase by separating concerns and removing duplicate logic; reduced regressions and sped up feature development.
 - Increased testing coverage by 20%.
 - Fixed endpoints timing out past API Gateway's 29s limit by optimizing DynamoDB query patterns; worst-case response time dropped to a few seconds.
-- Rebuilt the scheduling timeline component from scratch using virtualization; cut render time by 90%.
+- Rebuilt a scheduling timeline React component from scratch using virtualization; cut render time by 90%.
 - Fixed excessive re-renders in a sidebar by replacing useEffect-attached handlers with direct JSX handlers and memoizing the list data.
 - Combined with the timeline virtualization work above, improved Core Web Vitals: INP ~84% better, LCP ~69% better.
 - Built a custom ATS from the ground up using Next.js, FastAPI, PostgreSQL on RDS, and ECS, with Terraform and Bitbucket Pipelines for CI/CD.

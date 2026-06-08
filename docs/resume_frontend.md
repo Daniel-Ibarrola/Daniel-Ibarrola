@@ -20,7 +20,7 @@ Senior frontend engineer with a track record of inheriting slow or buggy React a
 **Full Stack Developer** – Inter-Con Security Systems  
 *Nov 2023 – Aug 2025*
 
-- Rebuilt the scheduling timeline component from scratch using virtualization; cut render time by 90%.
+- Rebuilt a scheduling timeline React component from scratch using virtualization; cut render time by 90%.
 - Fixed excessive re-renders in a sidebar by replacing useEffect-attached handlers with direct JSX handlers and memoizing the list data.
 - Combined with the timeline virtualization work above, improved Core Web Vitals: INP ~84% better, LCP ~69% better.
 - Fixed a slow data table with memoization and virtualization; render time dropped from ~3s to ~30ms and INP improved by ~80%.
