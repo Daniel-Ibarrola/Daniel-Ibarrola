@@ -6,7 +6,7 @@
 Software Engineer with 6+ years of experience building and improving systems across Python, TypeScript, React,
 FastAPI, AWS, PostgreSQL, Terraform, and CI/CD tools. Background includes improving JAX’s 
 build and test infrastructure at Google, strengthening security and reliability in a
-workforce scheduling platform at Inter-Con Security Systems, and building seismic data, cloud migration, alerting, 
+scheduling platform at Inter-Con Security Systems, and building seismic data, cloud migration, alerting, 
 and drug discovery software.
 
 Known for making complex systems faster, safer, and easier to maintain.
@@ -16,16 +16,15 @@ Known for making complex systems faster, safer, and easier to maintain.
 **Senior Software Engineer** – Grid Dynamics (client: Google)
 Sep 2025 - Present
 - Worked on CI and build infrastructure for Google’s JAX library using Bazel, GitHub Actions, and Python.
-- Added testing and build-system changes in Bazel to improve build stability and feedback time.
 - Built Python CLI tools that made GitHub CI failures faster to diagnose.
-- Created reusable GitHub Actions shared across multiple projects.
 - Fixed security issues in CI pipelines and improved reliability at scale.
 - Helped build a platform in GCP for GPU and TPU CI runners handling thousands of jobs per day.
+- Built custom AI agents to diagnose CI failures and propose fixes, reducing time spent on failure investigation.
 
 **Full Stack Developer** - Inter-Con Security Systems  
 *Nov 2023 – Aug 2025*  
 - Improved a key React workflow from roughly 30s to about 5s by redesigning state management and adding virtualization.
-- Improved backend responsiveness by reworking DynamoDB pagination and concurrent processing.
+- Improved backend responsiveness by reworking data access patterns, pagination, and concurrent processing.
 - Refactored core parts of the scheduling platform to improve maintainability and reduce regressions.
 - Fixed AWS security issues and improved cloud infrastructure across the system.
 - Reworked Terraform into reusable modules, reducing repeated setup work across environments.
@@ -57,8 +56,9 @@ Sep 2025 - Present
 ***
 ## Skills
 
-- Languages: Python, JavaScript/TypeScript, Rust, Go, Bash, SQL
+- Languages: JavaScript/TypeScript, Python, Rust, Go, Bash, SQL
 - Frontend: React, Tailwind, React Query, Zustand, Jest
 - Cloud & Infrastructure: AWS, Terraform, Docker, Bazel, GitHub Actions, Bitbucket Pipelines  
-- Backend & Databases: Django, FastAPI, Flask, Express.js, PostgreSQL, DynamoDB
-- Spoken Languages: English (Professional), Spanish (Native)'
+- AI: Claude Code, Gemini, Agentic Coding, Prompt Engineering
+- Backend & Databases: Express.js, FastAPI, Flask, PostgreSQL, DynamoDB
+- Spoken Languages: English (Professional), Spanish (Native)
