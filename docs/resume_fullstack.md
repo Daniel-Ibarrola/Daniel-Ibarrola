@@ -22,26 +22,19 @@ Software Engineer with 6+ years of experience across the full stack — Python a
 **Full Stack Developer** – Inter-Con Security Systems  
 *Nov 2023 – Aug 2025*
 
-- Refactored a legacy TypeScript/React and Node.js codebase by separating concerns and removing duplicate logic; reduced regressions and sped up feature development.
-- Added unit tests for core functionality to a codebase that had none.
-- Fixed endpoints timing out past API Gateway's 29s limit by optimizing DynamoDB query patterns; worst-case response time dropped to a few seconds.
-- Rebuilt the scheduling timeline component from scratch using virtualization; cut render time by 90%.
-- Fixed cascade re-renders in an officer sidebar by replacing useEffect event handlers with direct handlers and memoizing the officer array.
-- Core Web Vitals after refactoring: INP ~84% better, LCP ~69% better.
 - Built a custom ATS from the ground up using Next.js, FastAPI, PostgreSQL on RDS, and ECS, with Terraform and Bitbucket Pipelines for CI/CD.
+- Fixed endpoints timing out past API Gateway's 29s limit by optimizing DynamoDB query patterns; worst-case response time dropped to a few seconds.
 - Fixed a slow data table with memoization and virtualization; render time dropped from ~3s to ~30ms and INP improved by ~80%.
+- Rebuilt the scheduling timeline component from scratch using virtualization; cut render time by 90%.
 - Refactored Terraform into reusable modules with separate environments; reduced deployment errors by ~30%.
-- Moved publicly exposed AWS resources to a private subnet and added WAF protection.
-- Mentored developers and helped raise testing and code review standards across the team.
 
 **Software Engineer** – Centro de Instrumentación y Registro Sísmico, A.C.  
 *Aug 2019 – Nov 2023*
 
 - Built a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
-- Built an integration module for Earthworm, a legacy C application with minimal documentation; handled the full production data volume reliably.
 - Built a real-time React/TypeScript seismic data dashboard; fixed rendering performance using refs and a rolling data window, cutting render time by ~70%.
-- Built an automated alerting system for earthquake detection, notifying authorities via WhatsApp, Telegram, and email.
-- Replaced a manual notification process with an automated AWS pipeline (Lambda, SES, SNS, S3).
+- Built an integration module for Earthworm, a legacy C application with minimal documentation; handled the full production data volume reliably.
+- Replaced a manual notification process with an automated AWS pipeline (Lambda, SES, SNS, S3), sending earthquake alerts via WhatsApp, Telegram, and email.
 - Deployed and managed the system using Terraform and GitHub Actions.
 
 **Research Assistant (Software Development)** – Hospital Infantil de México Federico Gómez  
@@ -64,7 +57,7 @@ Software Engineer with 6+ years of experience across the full stack — Python a
 
 - Languages: JavaScript/TypeScript, Python, Bash, SQL
 - Frontend: React, Tailwind, React Query, Zustand, Jest
+- Backend & Databases: Node.js, FastAPI, Flask, PostgreSQL, DynamoDB
 - Cloud & Infrastructure: AWS, Terraform, Docker, Bazel, GitHub Actions, Bitbucket Pipelines
 - AI tools: Claude Code, Gemini API, agentic workflow development
-- Backend & Databases: Express.js, FastAPI, Flask, PostgreSQL, DynamoDB
 - Spoken Languages: English (Professional), Spanish (Native)
