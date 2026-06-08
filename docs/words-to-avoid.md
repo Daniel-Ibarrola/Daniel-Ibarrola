@@ -1,14 +1,12 @@
 Do not be overly formal and avoid the following words or phrases.
 
 Overly Formal / Resume-Style Verbs - Spearheaded - Leveraged -
-Orchestrated - Facilitated - Streamlined - Implemented - Executed -
-Championed - Pioneered - Optimized - Synthesized - Consolidated -
-Catalyzed
+Orchestrated - Facilitated - Streamlined - Executed - Championed - 
+Pioneered - Synthesized - Consolidated - Catalyzed
 
 Corporate Buzzwords - Synergy - Alignment - Stakeholders - Bandwidth -
 Paradigm - Ecosystem - Value-add - Thought leadership - Best-in-class -
-Actionable insights - Holistic approach - Robust solution - Scalable
-framework
+Actionable insights - Holistic approach  
 
 Academic / Overly Abstract Words - Notwithstanding - Henceforth -
 Furthermore - Accordingly - Thusly - Insofar as - Albeit - Therein -
