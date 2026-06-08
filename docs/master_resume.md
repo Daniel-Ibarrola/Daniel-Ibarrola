@@ -16,17 +16,17 @@ Senior software engineer with a track record of inheriting slow or fragile syste
 - Worked on CI and build infrastructure for Google's JAX and XLA libraries across CPU, GPU, and TPU hardware.
 - Built GitHub Actions workflows that caught Bazel build graph breakages in seconds instead of waiting hours for a full build.
 - Fixed security vulnerabilities in CI pipelines and added static analysis to prevent new ones.
-- Built a Python CLI tool (Culprit Finder) that automated regression bisection for JAX, XLA, and TensorFlow CI, eliminating hours of manual workflow monitoring.
+- Built a Python CLI tool that automated regression bisection for JAX, XLA, and TensorFlow CI, eliminating hours of manual workflow monitoring.
 
 **Full Stack Developer** – Inter-Con Security Systems  
 *Nov 2023 – Aug 2025*
 
 - Refactored a legacy TypeScript/React and Node.js codebase by separating concerns and removing duplicate logic; reduced regressions and sped up feature development.
-- Added unit tests for core functionality to a codebase that had none.
+- Increased testing coverage by 20%.
 - Fixed endpoints timing out past API Gateway's 29s limit by optimizing DynamoDB query patterns; worst-case response time dropped to a few seconds.
 - Rebuilt the scheduling timeline component from scratch using virtualization; cut render time by 90%.
-- Fixed cascade re-renders in an officer sidebar by replacing useEffect event handlers with direct handlers and memoizing the officer array.
-- Core Web Vitals after refactoring: INP ~84% better, LCP ~69% better.
+- Fixed excessive re-renders in a sidebar by replacing useEffect-attached handlers with direct JSX handlers and memoizing the list data.
+- Combined with the timeline virtualization work above, improved Core Web Vitals: INP ~84% better, LCP ~69% better.
 - Built a custom ATS from the ground up using Next.js, FastAPI, PostgreSQL on RDS, and ECS, with Terraform and Bitbucket Pipelines for CI/CD.
 - Fixed a slow data table with memoization and virtualization; render time dropped from ~3s to ~30ms and INP improved by ~80%.
 - Refactored Terraform into reusable modules with separate environments; reduced deployment errors by ~30%.

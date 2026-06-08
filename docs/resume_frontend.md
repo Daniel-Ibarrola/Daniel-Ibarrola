@@ -21,8 +21,8 @@ Senior frontend engineer with a track record of inheriting slow or buggy React a
 *Nov 2023 – Aug 2025*
 
 - Rebuilt the scheduling timeline component from scratch using virtualization; cut render time by 90%.
-- Fixed cascade re-renders in an officer sidebar by replacing useEffect event handlers with direct handlers and memoizing the officer array.
-- Core Web Vitals after refactoring: INP ~84% better, LCP ~69% better.
+- Fixed excessive re-renders in a sidebar by replacing useEffect-attached handlers with direct JSX handlers and memoizing the list data.
+- Combined with the timeline virtualization work above, improved Core Web Vitals: INP ~84% better, LCP ~69% better.
 - Fixed a slow data table with memoization and virtualization; render time dropped from ~3s to ~30ms and INP improved by ~80%.
 - Refactored a legacy TypeScript/React codebase by separating concerns and removing duplicate logic; reduced regressions and sped up feature development.
 
@@ -30,6 +30,8 @@ Senior frontend engineer with a track record of inheriting slow or buggy React a
 *Aug 2019 – Nov 2023*
 
 - Built a real-time React/TypeScript seismic data dashboard; fixed rendering performance using refs and a rolling data window, cutting render time by ~70%.
+- Built a Python backend (asyncio, TCP sockets) that processed real-time data from thousands of seismic stations.
+- Built an automated alerting system on AWS (Lambda, SES, SNS, S3) that notified authorities when an earthquake was detected, via WhatsApp, Telegram, and email.
 
 ***
 
