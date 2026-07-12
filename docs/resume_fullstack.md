@@ -16,7 +16,7 @@ Senior software engineer with a track record of inheriting slow or fragile syste
 - Built and maintained CI infrastructure for Google's JAX and XLA libraries across CPU, GPU, and TPU hardware.
 - Built GitHub Actions workflows that caught Bazel build graph breakages in seconds instead of waiting hours for a full build.
 - Fixed security vulnerabilities in CI pipelines and added static analysis to prevent new ones.
-- Built a Python CLI tool (Culprit Finder) that automated regression bisection for JAX, XLA, and TensorFlow CI, eliminating hours of manual workflow monitoring.
+- Built a Python CLI tool that automated regression bisection for JAX, XLA, and TensorFlow CI, eliminating hours of manual workflow monitoring.
 
 **Full Stack Developer** – Inter-Con Security Systems  
 *Nov 2023 – Aug 2025*

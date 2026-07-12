@@ -10,7 +10,7 @@ Senior frontend engineer with a track record of inheriting slow or buggy React a
 
 ## Work Experience
 
-**Senior Software Engineer** – Grid Dynamics (client: Google)  
+    **Senior Software Engineer** – Grid Dynamics (client: Google)  
 *Sep 2025 – Present*
 
 - Contributed to CI infrastructure for Google's JAX and XLA libraries across CPU, GPU, and TPU hardware.
